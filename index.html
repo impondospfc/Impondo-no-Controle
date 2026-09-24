@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,10 +11,9 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="logo.png" />
   <link rel="apple-touch-icon" href="logo.png" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
-  <!-- Header -->
   <header class="header">
     <img src="logo.png" alt="Impondo Imports" class="logo" />
     <div class="header-title">
@@ -22,12 +22,8 @@
     </div>
   </header>
 
-  <!-- Main content -->
-  <main id="app" class="app-content">
-    <!-- Screens will be injected here -->
-  </main>
+  <main id="app" class="app-content"></main>
 
-  <!-- Bottom Navigation -->
   <nav class="bottom-nav">
     <button class="nav-btn active" data-screen="dashboard">
       <span class="icon">🏠</span>
@@ -51,7 +47,6 @@
     </button>
   </nav>
 
-  <!-- Modal container -->
   <div id="modal" class="modal hidden">
     <div class="modal-content">
       <div class="modal-header">
@@ -62,11 +57,10 @@
     </div>
   </div>
 
-  <!-- Toast -->
   <div id="toast" class="toast hidden"></div>
 
-  <script src="js/storage.js"></script>
-  <script src="js/calculations.js"></script>
-  <script src="js/app.js"></script>
+  <script src="storage.js"></script>
+  <script src="cálculos.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
